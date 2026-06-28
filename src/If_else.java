@@ -24,7 +24,7 @@ public class If_else {
             System.out.println("Your grade is C+");
         }
         else if (marks >= 33 && marks <= 39){
-            System.out.println("Your grade is C+");
+            System.out.println("Your grade is C");
         }
         else{
             System.out.println("You Failed");

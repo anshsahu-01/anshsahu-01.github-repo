@@ -5,7 +5,9 @@ public class Shopping_Discount {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Amount :");
         int amount = sc.nextInt();
-        if (amount < 5000){
+        if (amount < 0){
+            System.out.println("Invalid Amount");
+        }else if (amount < 5000){
             System.out.println("You got 0% discount");
             System.out.println("Total Discount :" + 0);
             System.out.println("You have to pay :" + amount);

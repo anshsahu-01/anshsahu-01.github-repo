@@ -13,5 +13,6 @@ public class Sum_of_Numbers {
 
         }
         System.out.println("sum = " + sum);
+        sc.close();
     }
 }

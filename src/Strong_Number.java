@@ -19,5 +19,6 @@ public class Strong_Number {
             num /= 10;
         }
         System.out.println(factSum == originalNum ? "Strong Number" : "Not a Strong Number");
+        sc.close();
     }
 }

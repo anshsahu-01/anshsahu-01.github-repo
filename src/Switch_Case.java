@@ -38,5 +38,6 @@ public class Switch_Case {
                 System.out.println("Invalid Input");
             }
         }
+        sc.close();
     }
 }

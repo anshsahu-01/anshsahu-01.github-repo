@@ -30,5 +30,6 @@ public class If_else {
         else{
             System.out.println("You Failed");
         }
+        sc.close();
     }
 }

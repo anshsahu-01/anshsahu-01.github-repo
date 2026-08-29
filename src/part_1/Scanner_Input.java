@@ -7,5 +7,6 @@ public class Scanner_Input {
         Scanner sc = new Scanner(System.in);
         long l = sc.nextLong();
         System.out.println("Long Value"+ l);
+        sc.close();
     }
 }

@@ -9,5 +9,6 @@ public class Name_and_age {
         System.out.println("Enter Your Age :");
         int age = sc.nextInt();
         System.out.println("Hello Your Name Is " + name + " and your age is " + age);
+        sc.close();
     }
 }

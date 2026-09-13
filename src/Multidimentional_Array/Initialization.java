@@ -26,5 +26,6 @@ public class Initialization {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

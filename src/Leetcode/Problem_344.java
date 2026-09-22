@@ -1,6 +1,6 @@
 package Leetcode;
 
-class Solution {
+class Problem_344 {
     public void reverseString(char[] s) {
         int n = s.length;
         int start = 0;
